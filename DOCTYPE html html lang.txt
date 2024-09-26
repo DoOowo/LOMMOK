@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="prjstyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="plante.png" alt="">
+    <nav class="navbar">
+        <h3 class="logo">LO</h3>
+
+         <ul class="navList">
+        <li><a href="">About</a></li>
+        <li><a href="">Articles</a></li>
+        <li>
+            <div class="btn">
+                <button>SUBSCRIBE</button>
+            </div>
+            </li>
+    </ul>
+    </nav>
+         <div class="cont2">
+             <h1>LOMMOK</h1>
+             <h2>HOLISTIC HEALTH</h2>
+             <div class="khat"></div>
+         </div>
+   
+    </div>
+    <div class="test"><h4>LATEST ARTICLES</h4><br>
+    <div class="khat2"></div>
+    </div>
+
+
+
+
+
+    
+    <div class="container2">
+        
+        <div class="art1"> <div class="bgi1"><img src="f4153cf4d4513016c153f66edbab9549.jpg" alt=""></div>
+        <div class="khat3"></div>
+        <p class="p1">How to use mindfullness</p><br><p class="p2">in your everyday life</p></div>
+
+
+        <div class="art2"> <div class="bgi2"> <img src="f4202fd8b606457b9200ed6fc19b41a3.jpg" alt=""></div>
+        <div class="khat3"></div>
+            <p class="p3">What are the best walking</p><br><p class="p4">meditations</p></div>
+
+
+        <div class="art3"> <div class="bgi3"> <img src="60a7f05bfd397fdfc658adb494537ab3.jpg" alt=""></div>
+        <div class="khat3"></div>
+            <p class="p5">How to go deep into</p><br><p class="p6">the mind of hope</p></div>
+
+    </div>
+
+
+
+
+    <div class="container3">
+        <div class="about"> <div class="bgi4"><img src="9ae6dc9352d9d6d7a56e1551e2699356.jpg" alt=""></div>
+        <div class="test2"><h5>ABOUT</h5>
+        <div class="khat4"></div>
+            <p class="p7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea provident architecto natus neque tempora perferendis expedita ad quia recusandae optio praesentium officia corrupti illum accusamus, excepturi tenetur numquam saepe aut?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit corrupti deserunt dicta, fugiat excepturi animi. Optio maxime iusto sed veritatis voluptatibus voluptate veniam aperiam labore, reprehenderit, iste quo consectetur tempora. lo</p></div>
+
+    </div>
+  
+
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+    color: #60635f;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nanum+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+;
+
+
+:root{
+    --text : #484d47;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+
+.logo{
+    color: #72746e;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+}
+.navList li{
+    list-style: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+
+.navList li a{
+    font-size: 18px;
+    color: var(--text);
+    letter-spacing: 0.1rem;
+}
+
+button{
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    color: #474c46;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 2px solid #474c46;
+
+}
+
+.btn{
+    padding-top: 6px;
+}
+
+
+
+
+
+.container{
+    background-color: #f0f4f7;
+    background-image: url(Screenshot\ from\ 2024-03-08\ 21-13-22.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    margin-top: 15px;
+    height: 120vh;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    letter-spacing: 0.2rem;
+    color: #494f49;
+}
+.cont2 h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.cont2 h2{
+    font-size: 20px;
+    font-weight: 200 ;
+}
+.khat{
+    background-color: #7b958f;
+    text-align: center;
+    height: 5px;
+    width: 45px;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 250px;
+    margin-top: 25px;
+}
+.container2{
+    background-color: #f4f6f3;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    margin: auto;
+    gap: 90px;
+}
+.test{
+    background-color: #f4f6f3;
+    height: 50vh;
+    text-align: center;
+    font-size: 35px;
+}
+.test h4{
+    font-weight: 300;
+    padding-top: 120px; 
+    letter-spacing: 0.2rem;
+    color: #494f49;
+}
+.khat2{
+    background-color: #7b958f;
+    text-align: center;
+    height: 5px;
+    width: 45px;
+    margin-left: auto; margin-right: auto;
+
+}
+
+
+
+.bgi1, .bgi2, .bgi3{
+   width: 250px;
+   height: 50%;
+}
+.bgi1 img, .bgi2 img, .bgi3 img{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+.khat3{
+    background-color: #7b958f;
+    text-align: center;
+    height: 5px;
+    width: 45px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 40px;
+}
+.art1, .art2, .art3{
+ 
+    background-color: #fff;
+    height: 370px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.712);
+}
+p{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.p2, .p4, .p6{
+    padding-top: 2px;
+}
+
+
+
+
+.container3{
+    background-color: red;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.bgi4{
+    height: 100vh;
+}
+
+
+
+
